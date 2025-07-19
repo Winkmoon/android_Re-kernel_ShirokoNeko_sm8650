@@ -42,7 +42,7 @@
 #include <net/ipv6.h>
 #include <net/tcp.h>
 
-#include "../../android/binder_internal.h"
+#include <../drivers/android/binder_internal.h>
 
 #include "rekernel.h"
 
