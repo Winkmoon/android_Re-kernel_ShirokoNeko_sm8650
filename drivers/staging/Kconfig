@@ -83,3 +83,9 @@ source "drivers/staging/qlge/Kconfig"
 source "drivers/staging/vme_user/Kconfig"
 
 endif # STAGING
+
+config REKERNEL
+	tristate "Re:Kernel"
+	default n
+	help
+	  Support Re:Kernel for better Tombstone functionality.
